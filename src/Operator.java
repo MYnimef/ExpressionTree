@@ -13,6 +13,7 @@ public class Operator {
             case '-' -> a - b;
             case '*' -> a * b;
             case '/' -> a / b;
+            case '^' -> Math.pow(a, b);
             default -> 0;
         };
     }
